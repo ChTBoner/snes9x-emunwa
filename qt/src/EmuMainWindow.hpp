@@ -33,14 +33,14 @@ class EmuMainWindow : public QMainWindow
     void pauseContinue();
     bool isActivelyDrawing();
     void openFile();
-    bool openFile(std::string filename);
+    bool openFile(const std::string &filename);
     void recreateUIAssets();
     void shaderChanged();
     void gameChanging();
     void toggleMouseGrab();
     std::vector<std::string> getDisplayDeviceList();
-    EmuApplication *app;
-    EmuCanvas *canvas;
+    EmuApplication *app = nullptr;
+    EmuCanvas *canvas = nullptr;
 
   private:
     void idle();
