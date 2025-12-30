@@ -28,7 +28,7 @@ enum class NetworkAccessControlCommand {
     CMD_MESSAGE
 };
 
-#include "emu-nwaccess/generic_poll_server.h"
+#include "generic_poll_server.h"
 
 struct NetworkAccessClient {
     SOCKET      socket;

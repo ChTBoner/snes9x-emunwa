@@ -79,8 +79,8 @@ list(APPEND SOURCES src/gtk_display_driver_opengl.cpp
                     ../external/glad/src/egl.c
                     ../external/glad/src/gl.c
                     src/gtk_shader_parameters.cpp
-                    ../vulkan/std_chrono_throttle.cpp
-                    ../vulkan/std_chrono_throttle.hpp
+                    ../common/video/std_chrono_throttle.cpp
+                    ../common/video/std_chrono_throttle.hpp
                     ../emu-nwaccess/snes9x-nwaccess.cpp)
 list(APPEND INCLUDES ../external/glad/include)
 list(APPEND INCLUDES ../emu-nwaccess/)
